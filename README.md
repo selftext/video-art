@@ -16,11 +16,11 @@ Here are some good introductions to Avidemux:
 
 Other handy tools to have are [VLC](https://www.videolan.org/vlc/index.html) for viewing and converting a variety of video files and [ffmpeg](https://www.ffmpeg.org/) as a general command-line video utility.
 
-The main problem is Avidemux doesn't seem to work as well for datamoshing on newer versions of OS X (I don't know about Windows or Linux). Some people recommend using a different operating system (e.g. with [VirtualBox](https://www.virtualbox.org/)).
+Many people report that Avidemux doesn't work as well for datamoshing on newer versions of OS X (I don't know about Windows or Linux). Some people recommend using a different operating system (e.g. with [VirtualBox](https://www.virtualbox.org/)).
 
 I tried downloading Avidemux 2.5.4 based on these instructions — [TUTORIAL How to install avidemux for datamoshing on Mac OS X - Art! - Glitchet Forum](http://forum.glitchet.com/t/tutorial-how-to-install-avidemux-for-datamoshing-on-mac-os-x/33)  — but it wouldn't load on my system (OSX Mojave).
 
-Here are instructions for using a later version of Avidemux: [Datamoshing using Avidemux 2.7.0 | Antonio Roberts](https://www.hellocatfood.com/datamoshing-using-avidemux-2-7-0/). Using these settings, I was able to get some glitch effects, but they were hit or miss. Your mileage may vary.
+That said, Avidemux 2.7.1 seems to be stable on a fully updated Mac. Here are instructions for using a later version (> 2.7) of Avidemux: [Datamoshing using Avidemux 2.7.0 | Antonio Roberts](https://www.hellocatfood.com/datamoshing-using-avidemux-2-7-0/). Using these settings, I was able to get some glitch effects, but they were hit or miss. Your mileage may vary.
 
 ### Other tools
 This is a comprehensive list of resources for making glitch art: [Glitchet: Art Resources](http://www.glitchet.com/resources)
