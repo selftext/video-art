@@ -93,3 +93,17 @@ input="$dir/motorcycle/motorcycle.mpg"
 
 pipenv shell
 python -m do_the_mosh $input
+
+
+# ------------------------------------------------------------------------------
+# split a video file in chunks
+# see https://unix.stackexchange.com/questions/1670/how-can-i-use-ffmpeg-to-split-mpeg-video-into-10-minute-chunks
+
+# cut up a file into 20 second clips
+ffmpeg -i input.mp4 -c copy -map 0 -segment_time 00:00:20 \
+  -f segment output_%03d.mp4
+
+# if you find that only the first chunk is playable,
+# try adding `reset_timestamps 1`
+ffmpeg -i input.mp4 -c copy -map 0 -segment_time 00:00:20 \
+  -f segment -reset_timestamps 1 output_%03d.mp4

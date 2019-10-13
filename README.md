@@ -59,3 +59,10 @@ I'm just starting to dabble here:
 - [GitHub - jcjohnson/neural-style: Torch implementation of neural style algorithm](https://github.com/jcjohnson/neural-style)
 - [r/deepdream](https://www.reddit.com/r/deepdream/)
 - [r/deepstyle](https://www.reddit.com/r/deepstyle/)
+
+-----
+
+## Utilities
+
+- [ffmpeg](https://www.ffmpeg.org/) is a great general command-line video utility.
+  - [Advice on how to split a video file into chunks using ffmpeg](https://unix.stackexchange.com/questions/1670/how-can-i-use-ffmpeg-to-split-mpeg-video-into-10-minute-chunks)
