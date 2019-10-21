@@ -6,7 +6,8 @@
 # https://www.ffmpeg.org/
 
 # convert mpg to avi
-ffmpeg -i file.mpg -c:v copy -c:a copy file.avi
+file='filename'
+ffmpeg -i $file.mpg -c:v copy -c:a copy $file.avi
 
 # batch convert mpg to avi
 while IFS= read -d $'\0' -r file ; do
