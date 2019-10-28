@@ -66,3 +66,16 @@ I'm just starting to dabble here:
 
 - [ffmpeg](https://www.ffmpeg.org/) is a great general command-line video utility.
   - [Advice on how to split a video file into chunks using ffmpeg](https://unix.stackexchange.com/questions/1670/how-can-i-use-ffmpeg-to-split-mpeg-video-into-10-minute-chunks)
+
+-----
+
+## Fixing things
+
+Once you start destroying videos, you'll find that it can be hard to put them back together again, especially if you want to post them on social media.
+
+Here are some suggestions to fix broken video files. Your mileage may vary — you can follow these steps in sequence or do them separately.
+
+- Duplicate the clip and save the filename with an .avi extension. MacOS will give you a warning, but it's fine.
+- Open the AVI file in VLC and convert it to MP4. When you do this, you may want to keep the original audio track, which you can specify in the customization options. This will output an M4V file.
+- Use ffmpeg to convert the M4V file to MP4.
+- Upload the file to YouTube, let it process, and then download it.
