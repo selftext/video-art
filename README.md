@@ -66,6 +66,7 @@ I'm just starting to dabble here:
 
 - [ffmpeg](https://www.ffmpeg.org/) is a great general command-line video utility.
   - [Advice on how to split a video file into chunks using ffmpeg](https://unix.stackexchange.com/questions/1670/how-can-i-use-ffmpeg-to-split-mpeg-video-into-10-minute-chunks)
+- [HandBrake](https://handbrake.fr/) is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.
 
 -----
 
